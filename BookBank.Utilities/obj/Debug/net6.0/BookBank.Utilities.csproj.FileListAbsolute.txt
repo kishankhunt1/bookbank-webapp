@@ -1,0 +1,60 @@
+C:\Users\ABC\source\repos\BookBank.Utilities\bin\Debug\net6.0\BookBank.Utilities.deps.json
+C:\Users\ABC\source\repos\BookBank.Utilities\bin\Debug\net6.0\BookBank.Utilities.dll
+C:\Users\ABC\source\repos\BookBank.Utilities\bin\Debug\net6.0\BookBank.Utilities.pdb
+C:\Users\ABC\source\repos\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.csproj.AssemblyReference.cache
+C:\Users\ABC\source\repos\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ABC\source\repos\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.AssemblyInfoInputs.cache
+C:\Users\ABC\source\repos\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.AssemblyInfo.cs
+C:\Users\ABC\source\repos\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\ABC\source\repos\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.dll
+C:\Users\ABC\source\repos\BookBank.Utilities\obj\Debug\net6.0\refint\BookBank.Utilities.dll
+C:\Users\ABC\source\repos\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.pdb
+C:\Users\ABC\source\repos\BookBank.Utilities\obj\Debug\net6.0\ref\BookBank.Utilities.dll
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Utilities\bin\Debug\net6.0\BookBank.Utilities.deps.json
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Utilities\bin\Debug\net6.0\BookBank.Utilities.dll
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Utilities\bin\Debug\net6.0\BookBank.Utilities.pdb
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.csproj.AssemblyReference.cache
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.AssemblyInfoInputs.cache
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.AssemblyInfo.cs
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.dll
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Utilities\obj\Debug\net6.0\refint\BookBank.Utilities.dll
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.pdb
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Utilities\obj\Debug\net6.0\ref\BookBank.Utilities.dll
+D:\BookBank Managment\BookBank.Utilities\bin\Debug\net6.0\BookBank.Utilities.deps.json
+D:\BookBank Managment\BookBank.Utilities\bin\Debug\net6.0\BookBank.Utilities.dll
+D:\BookBank Managment\BookBank.Utilities\bin\Debug\net6.0\BookBank.Utilities.pdb
+D:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.csproj.AssemblyReference.cache
+D:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.AssemblyInfoInputs.cache
+D:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.AssemblyInfo.cs
+D:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.csproj.CoreCompileInputs.cache
+D:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.dll
+D:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\refint\BookBank.Utilities.dll
+D:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.pdb
+D:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\ref\BookBank.Utilities.dll
+F:\BookBank Managment\BookBank.Utilities\bin\Debug\net6.0\BookBank.Utilities.deps.json
+F:\BookBank Managment\BookBank.Utilities\bin\Debug\net6.0\BookBank.Utilities.dll
+F:\BookBank Managment\BookBank.Utilities\bin\Debug\net6.0\BookBank.Utilities.pdb
+F:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.csproj.AssemblyReference.cache
+F:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+F:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.AssemblyInfoInputs.cache
+F:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.AssemblyInfo.cs
+F:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.csproj.CoreCompileInputs.cache
+F:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.dll
+F:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\refint\BookBank.Utilities.dll
+F:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.pdb
+F:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\ref\BookBank.Utilities.dll
+E:\BookBank Managment\BookBank.Utilities\bin\Debug\net6.0\BookBank.Utilities.deps.json
+E:\BookBank Managment\BookBank.Utilities\bin\Debug\net6.0\BookBank.Utilities.dll
+E:\BookBank Managment\BookBank.Utilities\bin\Debug\net6.0\BookBank.Utilities.pdb
+E:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.csproj.AssemblyReference.cache
+E:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+E:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.AssemblyInfoInputs.cache
+E:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.AssemblyInfo.cs
+E:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.csproj.CoreCompileInputs.cache
+E:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.dll
+E:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\refint\BookBank.Utilities.dll
+E:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\BookBank.Utilities.pdb
+E:\BookBank Managment\BookBank.Utilities\obj\Debug\net6.0\ref\BookBank.Utilities.dll

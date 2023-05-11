@@ -1,0 +1,60 @@
+C:\Users\ABC\source\repos\BookBank.Models\bin\Debug\net6.0\BookBank.Models.deps.json
+C:\Users\ABC\source\repos\BookBank.Models\bin\Debug\net6.0\BookBank.Models.dll
+C:\Users\ABC\source\repos\BookBank.Models\bin\Debug\net6.0\BookBank.Models.pdb
+C:\Users\ABC\source\repos\BookBank.Models\obj\Debug\net6.0\BookBank.Models.csproj.AssemblyReference.cache
+C:\Users\ABC\source\repos\BookBank.Models\obj\Debug\net6.0\BookBank.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ABC\source\repos\BookBank.Models\obj\Debug\net6.0\BookBank.Models.AssemblyInfoInputs.cache
+C:\Users\ABC\source\repos\BookBank.Models\obj\Debug\net6.0\BookBank.Models.AssemblyInfo.cs
+C:\Users\ABC\source\repos\BookBank.Models\obj\Debug\net6.0\BookBank.Models.csproj.CoreCompileInputs.cache
+C:\Users\ABC\source\repos\BookBank.Models\obj\Debug\net6.0\BookBank.Models.dll
+C:\Users\ABC\source\repos\BookBank.Models\obj\Debug\net6.0\refint\BookBank.Models.dll
+C:\Users\ABC\source\repos\BookBank.Models\obj\Debug\net6.0\BookBank.Models.pdb
+C:\Users\ABC\source\repos\BookBank.Models\obj\Debug\net6.0\ref\BookBank.Models.dll
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Models\bin\Debug\net6.0\BookBank.Models.deps.json
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Models\bin\Debug\net6.0\BookBank.Models.dll
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Models\bin\Debug\net6.0\BookBank.Models.pdb
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Models\obj\Debug\net6.0\BookBank.Models.csproj.AssemblyReference.cache
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Models\obj\Debug\net6.0\BookBank.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Models\obj\Debug\net6.0\BookBank.Models.AssemblyInfoInputs.cache
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Models\obj\Debug\net6.0\BookBank.Models.AssemblyInfo.cs
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Models\obj\Debug\net6.0\BookBank.Models.csproj.CoreCompileInputs.cache
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Models\obj\Debug\net6.0\BookBank.Models.dll
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Models\obj\Debug\net6.0\refint\BookBank.Models.dll
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Models\obj\Debug\net6.0\BookBank.Models.pdb
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.Models\obj\Debug\net6.0\ref\BookBank.Models.dll
+D:\BookBank Managment\BookBank.Models\bin\Debug\net6.0\BookBank.Models.deps.json
+D:\BookBank Managment\BookBank.Models\bin\Debug\net6.0\BookBank.Models.dll
+D:\BookBank Managment\BookBank.Models\bin\Debug\net6.0\BookBank.Models.pdb
+D:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\BookBank.Models.csproj.AssemblyReference.cache
+D:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\BookBank.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\BookBank.Models.AssemblyInfoInputs.cache
+D:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\BookBank.Models.AssemblyInfo.cs
+D:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\BookBank.Models.csproj.CoreCompileInputs.cache
+D:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\BookBank.Models.dll
+D:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\refint\BookBank.Models.dll
+D:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\BookBank.Models.pdb
+D:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\ref\BookBank.Models.dll
+F:\BookBank Managment\BookBank.Models\bin\Debug\net6.0\BookBank.Models.deps.json
+F:\BookBank Managment\BookBank.Models\bin\Debug\net6.0\BookBank.Models.dll
+F:\BookBank Managment\BookBank.Models\bin\Debug\net6.0\BookBank.Models.pdb
+F:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\BookBank.Models.csproj.AssemblyReference.cache
+F:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\BookBank.Models.GeneratedMSBuildEditorConfig.editorconfig
+F:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\BookBank.Models.AssemblyInfoInputs.cache
+F:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\BookBank.Models.AssemblyInfo.cs
+F:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\BookBank.Models.csproj.CoreCompileInputs.cache
+F:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\BookBank.Models.dll
+F:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\refint\BookBank.Models.dll
+F:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\BookBank.Models.pdb
+F:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\ref\BookBank.Models.dll
+E:\BookBank Managment\BookBank.Models\bin\Debug\net6.0\BookBank.Models.deps.json
+E:\BookBank Managment\BookBank.Models\bin\Debug\net6.0\BookBank.Models.dll
+E:\BookBank Managment\BookBank.Models\bin\Debug\net6.0\BookBank.Models.pdb
+E:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\BookBank.Models.csproj.AssemblyReference.cache
+E:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\BookBank.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\BookBank.Models.AssemblyInfoInputs.cache
+E:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\BookBank.Models.AssemblyInfo.cs
+E:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\BookBank.Models.csproj.CoreCompileInputs.cache
+E:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\BookBank.Models.dll
+E:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\refint\BookBank.Models.dll
+E:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\BookBank.Models.pdb
+E:\BookBank Managment\BookBank.Models\obj\Debug\net6.0\ref\BookBank.Models.dll
