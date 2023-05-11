@@ -1,0 +1,29 @@
+﻿@model Category
+
+<form method="post" asp-action="DeletePost" class="m-5">
+    <input type="hidden" asp-for="Id"/>
+    <h4>
+        Delete Category
+    </h4><hr />
+
+    <div class="mt-4">
+        <label asp-for="Name"></label> <span class="text-danger">*</span>
+        <input asp-for="Name" disabled class="form-control mt-2" autocomplete="off"/>
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="mt-4">
+        <label asp-for="DisplayOrder"></label> <span class="text-danger">*</span>
+        <input asp-for="DisplayOrder" disabled class="form-control mt-2" autocomplete="off" />
+        <span asp-validation-for="DisplayOrder" class="text-danger"></span>
+    </div>
+    <div class="mt-4">
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a asp-controller="Category" asp-action="Index" class="btn btn-secondary" style="margin-left:10px">Back to List</a>
+    </div>
+</form>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

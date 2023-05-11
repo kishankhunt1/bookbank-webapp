@@ -1,0 +1,18 @@
+﻿@model IEnumerable<BookBank.Models.Product>
+
+<div class="container mt-3">
+        <div class="row row-cols-1 row-cols-md-3 g-2 m-3">
+    @foreach(var product in Model){
+            <div class="col">
+                <a class="card" id="box" asp-action="Details" asp-route-productid="@product.Product_id">
+                    <img src="@product.Product_ImageUrl" class="card-img-top mt-2 demo" alt="Atomic Habits" style="width:50%; height: 50%; display: block; margin: auto;"><br>
+                    <div class="card-body text-center">
+                        <h5 class="card-title"><b>@product.Product_Title</b></h5>
+                        <p style="font-size:15px ;"><span>@product.Category.Name </span> | <span>by</span> <b>@product.Product_Author</b></p>
+                        <p style="line-height:2px ;"><b>₹@product.Product_Price100.ToString("0.00")</b> <span style="opacity: 0.8; text-decoration:line-through;">₹@product.Product_ListPrice.ToString("0.00")</span></p>
+                    </div>
+                </a>
+            </div>
+    }
+        </div>
+</div>

@@ -1,0 +1,24 @@
+﻿@model CoverType
+
+<form method="post" asp-action="Edit" class="m-5">
+    <h4>
+        Edit CoverType
+    </h4><hr />
+
+    <div class="mt-4">
+        <label asp-for="name"></label> <span class="text-danger">*</span>
+        <input asp-for="name" class="form-control mt-2" autocomplete="off"/>
+        <span asp-validation-for="name" class="text-danger"></span>
+    </div>
+    
+    <div class="mt-4">
+        <button type="submit" class="btn btn-primary">Update</button>
+        <a asp-controller="CoverType" asp-action="Index" class="btn btn-secondary" style="margin-left:10px">Back to List</a>
+    </div>
+</form>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

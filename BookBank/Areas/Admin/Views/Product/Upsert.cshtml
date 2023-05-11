@@ -1,0 +1,118 @@
+﻿@model BookBank.Models.View_Model.ProductVm
+
+<form method="post" asp-action="Upsert" class="m-5" enctype="multipart/form-data">
+    <input asp-for="Product.Product_id" hidden/>
+    <input asp-for="Product.Product_ImageUrl" hidden/>
+        <div class="text-end"> 
+            <img src="@Model.Product.Product_ImageUrl" width="20%" />
+        </div>
+    <h4>
+       @(Model.Product.Product_id !=0?"Update":"Create")  Product
+    </h4><hr />
+
+    <div class="row"> 
+
+        <div class="mt-4">
+            <label asp-for="Product.Product_Title"></label> <span class="text-danger">*</span>
+            <input asp-for="Product.Product_Title" class="form-control mt-2" autocomplete="off" />
+            <span asp-validation-for="Product.Product_Title" class="text-danger"></span>
+        </div>
+
+        <div class="mt-4">
+            <label asp-for="Product.Product_Description"></label> <span class="text-danger">*</span>
+            <textarea asp-for="Product.Product_Description" class="form-control mt-2" rows="3" autocomplete="off"></textarea>
+            <span asp-validation-for="Product.Product_Description" class="text-danger"></span>
+        </div>
+
+        <div class="mt-4 col-6">
+            <label asp-for="Product.Product_ISBN"></label> <span class="text-danger">*</span>
+            <input asp-for="Product.Product_ISBN" class="form-control mt-2" autocomplete="off" />
+            <span asp-validation-for="Product.Product_ISBN" class="text-danger"></span>
+        </div>
+
+        <div class="mt-4 col-6">
+            <label asp-for="Product.Product_Author"></label> <span class="text-danger">*</span>
+            <input asp-for="Product.Product_Author" class="form-control mt-2" autocomplete="off" />
+            <span asp-validation-for="Product.Product_Author" class="text-danger"></span>
+        </div>
+
+        <div class="mt-4 col-6">
+            <label asp-for="Product.Product_ListPrice"></label> <span class="text-danger">*</span>
+            <input asp-for="Product.Product_ListPrice" class="form-control mt-2" autocomplete="off" />
+            <span asp-validation-for="Product.Product_ListPrice" class="text-danger"></span>
+        </div>
+
+        <div class="mt-4 col-6">
+            <label asp-for="Product.Product_Price"></label> <span class="text-danger">*</span>
+            <input asp-for="Product.Product_Price" class="form-control mt-2" autocomplete="off" />
+            <span asp-validation-for="Product.Product_Price" class="text-danger"></span>
+        </div>
+
+        <div class="mt-4 col-6">
+            <label asp-for="Product.Product_Price50"></label> <span class="text-danger">*</span>
+            <input asp-for="Product.Product_Price50" class="form-control mt-2" autocomplete="off" />
+            <span asp-validation-for="Product.Product_Price50" class="text-danger"></span>
+        </div>
+
+        <div class="mt-4 col-6">
+            <label asp-for="Product.Product_Price100"></label> <span class="text-danger">*</span>
+            <input asp-for="Product.Product_Price100" class="form-control mt-2" autocomplete="off" />
+            <span asp-validation-for="Product.Product_Price100" class="text-danger"></span>
+        </div>
+
+        <div class="mt-4">
+            <label asp-for="Product.Product_ImageUrl"></label> <span class="text-danger">*</span>
+            <input type="file" name="file" id="uploadimg" class="form-control mt-2" autocomplete="off" />
+        </div>
+
+        <div class="mt-4 col-6">
+            <label asp-for="Product.CategoryId"></label> <span class="text-danger">*</span>
+                <select asp-for="Product.CategoryId" asp-items="@Model.CategoryList" class="form-select">
+                    <option disabled selected>
+                        Select Category
+                    </option>
+                </select>
+                <span asp-validation-for="Product.CategoryId" class="text-danger"></span>
+        </div>
+
+        <div class="mt-4 col-6">
+            <label asp-for="Product.CoverTypeId"></label> <span class="text-danger">*</span>
+                <select asp-for="Product.CoverTypeId" asp-items="@Model.CoverTypeList" class="form-select">
+                    <option disabled selected>
+                        Select CoverType
+                    </option>
+                </select>
+            <span asp-validation-for="Product.CoverTypeId" class="text-danger"></span>
+        </div>
+
+        <div class="mt-4">
+            @if (Model.Product.Product_id != 0)
+            {
+                <button type="submit" class="btn btn-primary">Update</button>
+            }
+            else{
+                <button type="submit" class="btn btn-primary" onclick="return validateinput()">Create</button>
+            }
+            <a asp-controller="Product" asp-action="Index" class="btn btn-secondary" style="margin-left:10px">Back to List</a>
+        </div>
+    </div>
+</form>
+
+@section Scripts{
+    @{
+    <partial name="_ValidationScriptsPartial" />
+    }
+    <script>
+        function validateinput(){
+            if(document.getElementById("uploadimg").value==""){
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Please! Upload an Image'
+                });
+                return false;
+            }
+            return true;
+        }
+    </script>
+}

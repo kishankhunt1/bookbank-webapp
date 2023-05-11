@@ -1,0 +1,262 @@
+﻿@page
+@using BookBank.Utilities
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+
+<div class="row rounded mt-5" style="background-color:#F9F5EB;">
+    <div class="col-lg-3 col-md-3 col-sm-0 bg-primary rounded-start rounded-end">
+        <div>
+            
+            <h3 class="text-light fw-bold pt-5 px-3">
+                Looks like you're new here!
+            </h3>
+            <br />
+            <h5 class="px-3 text-light pb-3">
+                Sign up with your Details to get started
+            </h5>
+            <div>
+                <img class="img-fluid" src="/hand_image.png" />
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-8 col-md-9" style="align-items: center;align-content:center;margin:auto;">
+        <div class="row">
+            <div class="col-12">
+                @{
+                    if ((Model.ExternalLogins?.Count ?? 0) == 0)
+                    {
+                        <div>
+                            <p>
+                                There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">
+                                    article
+                                    about setting up this ASP.NET application to support logging in via external services
+                                </a>.
+                            </p>
+                        </div>
+                    }
+                    else
+                    {
+                        <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                            <div>
+                                <p class="text-center">
+                                    @foreach (var provider in Model.ExternalLogins!)
+                                    {
+                                        <button type="submit" class="btn btn-primary w-50 mt-4" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">Login With Facebook</button>
+                                    }
+                                </p>
+                            </div>
+                        </form>
+                    }
+                }
+            </div>
+
+            <div class="divider d-flex align-items-center my-2">
+                <p class="text-center fw-bold mx-3 mb-0">Or</p>
+            </div>
+
+            <form class="row" id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-floating py-2 col-12">
+                    <input asp-for="Input.Email" class="form-control" autocomplete="off" aria-required="true" />
+                    <label asp-for="Input.Email" class="p-4"></label>
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                </div>
+                <div class="form-floating py-2 col-6">
+                    <input asp-for="Input.Name" class="form-control" aria-required="true" autocomplete="off"/>
+                    <label asp-for="Input.Name" class="p-4"></label>
+                    <span asp-validation-for="Input.Name" class="text-danger"></span>
+                </div>
+                <div class="form-floating py-2 col-6">
+                    <input asp-for="Input.PhoneNumber" class="form-control" aria-required="true" autocomplete="off" />
+                    <label asp-for="Input.PhoneNumber" class="p-4"></label>
+                    <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+                </div>
+                <div class="form-floating py-2 col-6">
+                    <input asp-for="Input.StreetAddress" class="form-control" aria-required="true" autocomplete="off" />
+                    <label asp-for="Input.StreetAddress" class="p-4"></label>
+                    <span asp-validation-for="Input.StreetAddress" class="text-danger"></span>
+                </div>
+                <div class="form-floating py-2 col-6">
+                    <input asp-for="Input.City" class="form-control" aria-required="true" autocomplete="off" />
+                    <label asp-for="Input.City" class="p-4"></label>
+                    <span asp-validation-for="Input.City" class="text-danger"></span>
+                </div>
+                <div class="form-floating py-2 col-6">
+                    <input asp-for="Input.State" class="form-control" aria-required="true" autocomplete="off" />
+                    <label asp-for="Input.State" class="p-4"></label>
+                    <span asp-validation-for="Input.State" class="text-danger"></span>
+                </div>
+                <div class="form-floating py-2 col-6">
+                    <input asp-for="Input.PostalCode" class="form-control" aria-required="true" autocomplete="off" />
+                    <label asp-for="Input.PostalCode" class="p-4"></label>
+                    <span asp-validation-for="Input.PostalCode" class="text-danger"></span>
+                </div>
+                <div class="form-floating py-2 col-6">
+                    <input asp-for="Input.Password" class="form-control" aria-required="true" autocomplete="off" />
+                    <label asp-for="Input.Password" class="p-4"></label>
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                </div>
+                <div class="form-floating py-2 col-6">
+                    <input asp-for="Input.ConfirmPassword" class="form-control" aria-required="true" autocomplete="off" />
+                    <label asp-for="Input.ConfirmPassword" class="p-4"></label>
+                    <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                </div>
+
+                @if (User.IsInRole(SD.Role_Admin))
+                {
+                    <div class="form-floating py-2 col-6">
+                        <select asp-for="Input.Role" asp-items="@Model.Input.RoleList" class="form-select">
+                            <option disabled selected>Select Role</option>
+                        </select>
+                    </div>
+
+                    <div class="form-floating py-2 col-6">
+                        <select asp-for="Input.CompanyId" style="display:none;" asp-items="@Model.Input.CompanyList" class="form-select">
+                            <option disabled selected>Select Company</option>
+                        </select>
+                    </div>
+                }
+                <button id="registerSubmit" type="submit" class=" btn btn-lg btn-primary my-3 mx-3 col-md-3 col-lg-2 col-3">Register</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+@*
+<div class="row pt-4">
+    <div class="col-md-7">
+        <form id="registerForm" class="row" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <h2>Create a new account.</h2>
+            <hr />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-floating py-1 col-12">
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
+                <label asp-for="Input.Email" class="p-4"></label>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-floating py-1 col-6">
+                <input asp-for="Input.Name" class="form-control" aria-required="true" />
+                <label asp-for="Input.Name" class="p-4"></label>
+                <span asp-validation-for="Input.Name" class="text-danger"></span>
+            </div>
+            <div class="form-floating py-1 col-6">
+                <input asp-for="Input.PhoneNumber" class="form-control" aria-required="true" />
+                <label asp-for="Input.PhoneNumber" class="p-4"></label>
+                <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-floating py-1 col-6">
+                <input asp-for="Input.StreetAddress" class="form-control" aria-required="true" />
+                <label asp-for="Input.StreetAddress" class="p-4"></label>
+                <span asp-validation-for="Input.StreetAddress" class="text-danger"></span>
+            </div>
+            <div class="form-floating py-1 col-6">
+                <input asp-for="Input.City" class="form-control" aria-required="true" />
+                <label asp-for="Input.City" class="p-4"></label>
+                <span asp-validation-for="Input.City" class="text-danger"></span>
+            </div>
+            <div class="form-floating py-1 col-6">
+                <input asp-for="Input.State" class="form-control" aria-required="true" />
+                <label asp-for="Input.State" class="p-4"></label>
+                <span asp-validation-for="Input.State" class="text-danger"></span>
+            </div>
+            <div class="form-floating py-1 col-6">
+                <input asp-for="Input.PostalCode" class="form-control" aria-required="true" />
+                <label asp-for="Input.PostalCode" class="p-4"></label>
+                <span asp-validation-for="Input.PostalCode" class="text-danger"></span>
+            </div>
+            <div class="form-floating py-1 col-6">
+                <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" />
+                <label asp-for="Input.Password" class="p-4"></label>
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class="form-floating py-1 col-6">
+                <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" />
+                <label asp-for="Input.ConfirmPassword" class="p-4"></label>
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+
+            @if (User.IsInRole(SD.Role_Admin))
+            {
+                <div class="form-floating py-1 col-6">
+                    <select asp-for="Input.Role" asp-items="@Model.Input.RoleList" class="form-select">
+                        <option disabled selected>Select Role</option>
+                    </select>
+                </div>
+
+                <div class="form-floating py-1 col-6">
+                    <select asp-for="Input.CompanyId" style="display:none;" asp-items="@Model.Input.CompanyList" class="form-select">
+                        <option disabled selected>Select Company</option>
+                    </select>
+                </div>
+            }
+            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary my-2 col-12">Register</button>
+        </form>
+    </div>
+    @if (!User.IsInRole(SD.Role_Admin))
+    {
+
+
+        <div class="col-md-5">
+            <section>
+                <h3>Use another service to register.</h3>
+                <hr />
+                @{
+                    if ((Model.ExternalLogins?.Count ?? 0) == 0)
+                    {
+                        <div>
+                            <p>
+                                There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">
+                                    article
+                                    about setting up this ASP.NET application to support logging in via external services
+                                </a>.
+                            </p>
+                        </div>
+                    }
+                    else
+                    {
+                        <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                            <div>
+                                <p>
+                                    @foreach (var provider in Model.ExternalLogins!)
+                                    {
+                                        <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                                    }
+                                </p>
+                            </div>
+                        </form>
+                    }
+                }
+            </section>
+        </div>
+    }
+</div>*@
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        $(document).ready(function () {
+            $('#Input_Role').change(function () {
+                var selection = $('#Input_Role Option:Selected').text();
+                if (selection != 'Company') {
+                    $('#Input_CompanyId').hide();
+                }
+                else {
+                    $('#Input_CompanyId').show();
+
+                }
+            })
+        })
+    </script>
+}

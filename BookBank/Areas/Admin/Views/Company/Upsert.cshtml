@@ -1,0 +1,65 @@
+﻿@model Companies;
+
+<form method="post" asp-action="Upsert" class="m-5" >
+    <input asp-for="Id" hidden/>
+    <h4>
+       @(Model.Id !=0?"Update":"Create")  Company
+    </h4><hr />
+
+    <div class="row"> 
+
+        <div class="mt-4">
+            <label asp-for="Name">Company Name</label> <span class="text-danger">*</span>
+            <input asp-for="Name" class="form-control mt-2" autocomplete="off" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="mt-4">
+            <label asp-for="PhoneNumber"></label> <span class="text-danger">*</span>
+            <input asp-for="PhoneNumber" class="form-control mt-2" autocomplete="off" />
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        </div>
+
+        <div class="mt-4">
+            <label asp-for="StreetAddress"></label> <span class="text-danger">*</span>
+            <input asp-for="StreetAddress" class="form-control mt-2" autocomplete="off" />
+            <span asp-validation-for="StreetAddress" class="text-danger"></span>
+        </div>
+
+        <div class="mt-4">
+            <label asp-for="City"></label> <span class="text-danger">*</span>
+            <input asp-for="City" class="form-control mt-2" autocomplete="off" />
+            <span asp-validation-for="City" class="text-danger"></span>
+        </div>
+
+        <div class="mt-4">
+            <label asp-for="State"></label> <span class="text-danger">*</span>
+            <input asp-for="State" class="form-control mt-2" autocomplete="off" />
+            <span asp-validation-for="State" class="text-danger"></span>
+        </div>
+
+        <div class="mt-4">
+            <label asp-for="PostalCode"></label> <span class="text-danger">*</span>
+            <input asp-for="PostalCode" class="form-control mt-2" autocomplete="off" />
+            <span asp-validation-for="PostalCode" class="text-danger"></span>
+        </div>
+
+        <div class="mt-4">
+            @if (Model.Id != 0)
+            {
+                <button type="submit" class="btn btn-primary">Update</button>
+            }
+            else{
+                <button type="submit" class="btn btn-primary">Create</button>
+            }
+            <a asp-controller="Company" asp-action="Index" class="btn btn-secondary" style="margin-left:10px">Back to List</a>
+        </div>
+    </div>
+</form>
+
+@section Scripts{
+    @{
+    <partial name="_ValidationScriptsPartial" />
+    }
+    
+    }
