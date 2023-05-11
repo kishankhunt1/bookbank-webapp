@@ -1,0 +1,91 @@
+C:\Users\ABC\source\repos\BookBank.DataAccess\bin\Debug\net6.0\BookBank.DataAccess.deps.json
+C:\Users\ABC\source\repos\BookBank.DataAccess\bin\Debug\net6.0\BookBank.DataAccess.runtimeconfig.json
+C:\Users\ABC\source\repos\BookBank.DataAccess\bin\Debug\net6.0\BookBank.DataAccess.dll
+C:\Users\ABC\source\repos\BookBank.DataAccess\bin\Debug\net6.0\BookBank.DataAccess.pdb
+C:\Users\ABC\source\repos\BookBank.DataAccess\bin\Debug\net6.0\BookBank.Models.dll
+C:\Users\ABC\source\repos\BookBank.DataAccess\bin\Debug\net6.0\BookBank.Models.pdb
+C:\Users\ABC\source\repos\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.csproj.AssemblyReference.cache
+C:\Users\ABC\source\repos\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ABC\source\repos\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.AssemblyInfoInputs.cache
+C:\Users\ABC\source\repos\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.AssemblyInfo.cs
+C:\Users\ABC\source\repos\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ABC\source\repos\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.csproj.CopyComplete
+C:\Users\ABC\source\repos\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.dll
+C:\Users\ABC\source\repos\BookBank.DataAccess\obj\Debug\net6.0\refint\BookBank.DataAccess.dll
+C:\Users\ABC\source\repos\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.pdb
+C:\Users\ABC\source\repos\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.genruntimeconfig.cache
+C:\Users\ABC\source\repos\BookBank.DataAccess\obj\Debug\net6.0\ref\BookBank.DataAccess.dll
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.DataAccess\bin\Debug\net6.0\BookBank.DataAccess.deps.json
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.DataAccess\bin\Debug\net6.0\BookBank.DataAccess.runtimeconfig.json
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.DataAccess\bin\Debug\net6.0\BookBank.DataAccess.dll
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.DataAccess\bin\Debug\net6.0\BookBank.DataAccess.pdb
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.DataAccess\bin\Debug\net6.0\BookBank.Models.dll
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.DataAccess\bin\Debug\net6.0\BookBank.Models.pdb
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.csproj.AssemblyReference.cache
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.AssemblyInfoInputs.cache
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.AssemblyInfo.cs
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.csproj.CopyComplete
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.dll
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.DataAccess\obj\Debug\net6.0\refint\BookBank.DataAccess.dll
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.pdb
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.genruntimeconfig.cache
+C:\Users\ABC\OneDrive\Desktop\KK\BookBank.DataAccess\obj\Debug\net6.0\ref\BookBank.DataAccess.dll
+D:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.DataAccess.deps.json
+D:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.DataAccess.runtimeconfig.json
+D:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.DataAccess.dll
+D:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.DataAccess.pdb
+D:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.Models.dll
+D:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.Models.pdb
+D:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.csproj.AssemblyReference.cache
+D:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.AssemblyInfoInputs.cache
+D:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.AssemblyInfo.cs
+D:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.csproj.CoreCompileInputs.cache
+D:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.csproj.CopyComplete
+D:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.dll
+D:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\refint\BookBank.DataAccess.dll
+D:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.pdb
+D:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.genruntimeconfig.cache
+D:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\ref\BookBank.DataAccess.dll
+D:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.Utilities.dll
+D:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.Utilities.pdb
+F:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.DataAccess.deps.json
+F:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.DataAccess.runtimeconfig.json
+F:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.DataAccess.dll
+F:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.DataAccess.pdb
+F:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.Models.dll
+F:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.Utilities.dll
+F:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.Models.pdb
+F:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.Utilities.pdb
+F:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.csproj.AssemblyReference.cache
+F:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+F:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.AssemblyInfoInputs.cache
+F:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.AssemblyInfo.cs
+F:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.csproj.CoreCompileInputs.cache
+F:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.csproj.CopyComplete
+F:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.dll
+F:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\refint\BookBank.DataAccess.dll
+F:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.pdb
+F:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.genruntimeconfig.cache
+F:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\ref\BookBank.DataAccess.dll
+E:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.DataAccess.deps.json
+E:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.DataAccess.runtimeconfig.json
+E:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.DataAccess.dll
+E:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.DataAccess.pdb
+E:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.Models.dll
+E:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.Utilities.dll
+E:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.Models.pdb
+E:\BookBank Managment\BookBank.DataAccess\bin\Debug\net6.0\BookBank.Utilities.pdb
+E:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.csproj.AssemblyReference.cache
+E:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.AssemblyInfoInputs.cache
+E:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.AssemblyInfo.cs
+E:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.csproj.CoreCompileInputs.cache
+E:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.csproj.CopyComplete
+E:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.dll
+E:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\refint\BookBank.DataAccess.dll
+E:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.pdb
+E:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\BookBank.DataAccess.genruntimeconfig.cache
+E:\BookBank Managment\BookBank.DataAccess\obj\Debug\net6.0\ref\BookBank.DataAccess.dll
